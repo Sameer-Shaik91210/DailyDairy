@@ -1,0 +1,16 @@
+<div class="search">
+  <!-- Search Field -->
+  <mat-form-field class="search-field">
+    <input matInput type="text" placeholder="Search" [(ngModel)]="searchText" />
+  </mat-form-field>
+
+  <!-- Search buttton -->
+  <button
+    class="search-button"
+    mat-fab
+    aria-label="Example icon button with a delete icon"
+    (click)="onSearch()"
+  >
+    <span class="material-symbols-outlined">search</span>
+  </button>
+</div>
